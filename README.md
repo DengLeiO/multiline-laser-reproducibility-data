@@ -10,10 +10,10 @@ The released data are provided to support external inspection of the input image
 
 * `scene_1_plaster`: plaster scene used for representative qualitative experiments and matching-performance evaluation.
 * `scene_2_plaster`: another plaster scene used for matching-performance evaluation and ablation-related verification.
-* `scene_3_standard_sphere`: standard-sphere scene used for reconstruction accuracy evaluation.
+* `scene_3_standard_sphere`: standard dual-sphere scene used for reconstruction accuracy evaluation.
 * `scene_4_multi_pose`: multi-pose scene used for evaluating reconstruction stability under handheld acquisition.
 * `scene_5_failure_case`: transparent-surface failure case used for analysing applicability boundaries.
-* `scene_6_calibration_verification`: calibration-board images and corresponding stereo calibration results.
+* `scene_6_calibration_verification`: calibration-board images and corresponding camera calibration results.
 
 ## General note
 
@@ -27,7 +27,7 @@ For scenes 1–5:
 For scene 6:
 
 * `calibration_images` contains calibration-board images.
-* `our_calibration_results` contains the stereo calibration results estimated from these images.
+* `our_calibration_results` contains the camera calibration results estimated from these images.
 
 ## Correspondence between manuscript experiments and released data
 
@@ -35,7 +35,7 @@ For scene 6:
 | ------------------------ | ------------------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | Section 5.2              | Qualitative experiments                           | `scene_1_plaster`                    | Inspect representative speckle images, line-laser images, calibration files, and qualitative reconstruction input data. |
 | Section 5.3.1            | Matching performance                              | `scene_1_plaster`, `scene_2_plaster` | Inspect the input data used for MR/MPR evaluation and check the evaluation protocol described in the manuscript.        |
-| Section 5.3.2            | Reconstruction accuracy                           | `scene_3_standard_sphere`            | Inspect the input data and calibration results used for standard-sphere reconstruction accuracy evaluation.             |
+| Section 5.3.2            | Reconstruction accuracy                           | `scene_3_standard_sphere`            | Inspect the input data and calibration results used for standard dual-sphere reconstruction accuracy evaluation.        |
 | Section 5.4.3            | Reconstruction results under handheld acquisition | `scene_4_multi_pose`                 | Inspect multi-pose data used for evaluating reconstruction stability under handheld acquisition.                        |
 | Section 5.4.4            | Failure-case and applicability-boundary analysis  | `scene_5_failure_case`               | Inspect the transparent-surface failure case used to analyse applicability boundaries.                                  |
 | Section 5.5              | Ablation experiments                              | `scene_2_plaster`                    | Inspect the representative input data used for ablation-related verification.                                           |
